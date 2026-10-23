@@ -1,0 +1,21 @@
+{
+  "name": "discord-lyrics-spotify",
+  "version": "1.0.0",
+  "description": "Real-time Spotify lyrics",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "ryanmhildan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanmhildan/discord-lyrics-spotify.git"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
